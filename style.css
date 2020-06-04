@@ -17,13 +17,13 @@ body {
     width: 35%;
 }
 
-h1 {
+.title {
     font-size: 45px;
     color: #fff;
     line-height: 55px;
 }
 
-p {
+.description {
     color: #fff;
     font-weight: 500;
 }
@@ -39,20 +39,20 @@ p {
 
 form {
     margin-top: 24px;
-    padding: 35px;
+    padding: 45px;
     display: grid;
-    grid-gap: 24px;
+    grid-gap: 30px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 10px 6px 1px rgba(0,0,0,0.18);
 }
 
 input {
-    display: block;
-    padding: 16px;
+    padding: 16px 32px;
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: 4px;
     font-family: inherit;
+    font-size: inherit;
     font-weight: 600;
     width: 100%;
     box-sizing: border-box;
@@ -64,11 +64,17 @@ input:focus {
     border: 1px solid hsl(249, 10%, 26%);
 }
 
-input.error {
+.control.error input {
     color: hsl(0, 100%, 74%);
     border: 2px solid hsl(0, 100%, 74%);
+    background: url('images/icon-error.svg') no-repeat calc(100% - 32px);
 }
-div.error {
+
+.control.error input::placeholder {
+    visibility: hidden;
+}
+
+.control.error .error-message {
     margin-top: 8px;
     text-align: right;
     font-size: 11px;
@@ -85,10 +91,15 @@ input[type=submit] {
     color: #fff;
     border: 0;
     border-radius: 4px;
-    box-shadow: 0px 10px 6px 1px rgba(0,0,0,0.18);
+    border-bottom: 1px solid hsl(154, 59%, 41%);
+    border-bottom-width: 3px;
     display: flex;
     justify-content: center;
-    align-content: center;
+}
+
+input[type=submit]:hover {
+    filter: opacity(0.6);
+    cursor: pointer;
 }
 
 .agreement {
