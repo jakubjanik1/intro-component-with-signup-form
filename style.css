@@ -75,11 +75,16 @@ input:focus {
 }
 
 .control.error .error-message {
+    display: block;
     margin-top: 8px;
     text-align: right;
     font-size: 11px;
     font-weight: 500;
     color: hsl(0, 100%, 74%);
+}
+
+.error-message {
+    display: none;
 }
 
 input[type=submit] {

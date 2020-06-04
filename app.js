@@ -11,5 +11,9 @@ document.querySelector('form').addEventListener('submit', event => {
             input.parentElement.classList.add('error')
             input.nextElementSibling.textContent = 'Looks like this is not an email'
         }
+
+        if (input.checkValidity()) {
+            input.parentElement.classList.remove('error')
+        }
     }
 })
