@@ -1,0 +1,15 @@
+{
+  "name": "intro-component-with-signup-form",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubjanik1/intro-component-with-signup-form.git"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
