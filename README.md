@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-<img src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_55,w_256,f_auto,q_auto:eco/ctmeldqjh4ukhkpax0z8"  alt="Logo">
+<img src="https://res.cloudinary.com/djc9jias4/image/upload/v1596341165/intro-component-with-signup-form/jaa0re6jaqvgthphcak6.png"  alt="Logo">
 </p>
 
 <br>
@@ -23,9 +23,7 @@
 
 This is a solution to one of the [Frontend Mentor](https://www.frontendmentor.io/) challenges. The idea of every challenge is to build a page that looks as close as possible to the desirable design. This particular one is a simple responsive sign-up form with validation.
 
-Challenge: [https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
-
-Solution: [https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-vqpXIfR7D](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-vqpXIfR7D)
+Here are the links to a [challenge description](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) and [my solution](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-vqpXIfR7D) pages.
 
 ## Tech/framework used 🔧
 
@@ -46,7 +44,7 @@ Solution: [https://www.frontendmentor.io/solutions/intro-component-with-sign-up-
 ## Installation 💾
 
 ``` shell
-git clone https://github.com/jakubjanik1/readingly.git
+git clone https://github.com/jakubjanik1/intro-component-with-signup-form.git
 
 npm install
 
