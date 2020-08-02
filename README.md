@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-<img src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_45,w_256,f_auto,q_auto:eco/ctmeldqjh4ukhkpax0z8"  alt="Logo">
+<img src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_55,w_256,f_auto,q_auto:eco/ctmeldqjh4ukhkpax0z8"  alt="Logo">
 </p>
 
 <br>
@@ -21,7 +21,11 @@
 
 ## Project Overview 🎉
 
+This is a solution to one of the [Frontend Mentor](https://www.frontendmentor.io/) challenges. The idea of every challenge is to build a page that looks as close as possible to the desirable design. This particular one is a simple responsive sign-up form with validation.
 
+Challenge: [https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
+
+Solution: [https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-vqpXIfR7D](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-vqpXIfR7D)
 
 ## Tech/framework used 🔧
 
@@ -44,19 +48,17 @@
 ``` shell
 git clone https://github.com/jakubjanik1/readingly.git
 
-yarn install
+npm install
 
-yarn serve
+npm start
 ```
 
 ## Available scripts
 
-| Command                   | Description                   |     |
-| ------------------------- | ----------------------------- | --- |
-| `yarn serve`           | Open local server             |     |
-| `yarn build`           | Create optimized build        |     |
-| `yarn run test:unit`            | Run unit tests                     |     |
-
+| Command                   | Description                   |
+| ------------------------- | ----------------------------- |
+| `npm start`               | Start local server            |
+| `npm run build`           | Create optimized build        |
 
 ## Live 📍
 https://intro-component-with-signup-form-rust.now.sh/
