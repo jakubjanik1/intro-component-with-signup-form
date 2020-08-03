@@ -30,6 +30,8 @@ Here are the links to a [challenge description](https://www.frontendmentor.io/ch
 - JavaScript
 - CSS
 - HTML
+- Parcel
+- Vercel
 
 ## Screenshots 📺
 
