@@ -6,13 +6,9 @@
 <img src="https://res.cloudinary.com/djc9jias4/image/upload/v1596341165/intro-component-with-signup-form/jaa0re6jaqvgthphcak6.png"  alt="Logo">
 </p>
 
-<br>
-
-<br>
-
 </h1>
 
-<h4 align="center">Intro component with sign-up form - challenge solution</h4>
+<h4 align="center">Intro component with sign-up form</h4>
 
 <p align="center">
     <img src="https://res.cloudinary.com/djc9jias4/image/upload/v1596278307/intro-component-with-signup-form/sijx2itfdzkzvblhfbak.png"
@@ -46,7 +42,7 @@ Here are the links to a [challenge description](https://www.frontendmentor.io/ch
 ## Installation 💾
 
 ``` shell
-git clone https://github.com/jakubjanik1/intro-component-with-signup-form.git
+git clone https://github.com/kubajanik/intro-component-with-signup-form.git
 
 npm install
 
